@@ -1,0 +1,155 @@
+/*body is dark grey text on a cream background*/
+/* Contrast Ratio of 5.15:1*/
+body {
+    margin: 0;
+    background-color: cornsilk;
+    color: dimgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*same font and line height*/
+h1,
+h2,
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.2;
+}
+
+/*h1 is bigger, no gaps, spaced out letters*/
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/*blue on cream contrast 8.06:1 */
+/*Blue text with a light grey line under*/
+h2 {
+    font-size: 1.8rem;
+    color: blue;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+
+/*green on cream contrast 6.98:1*/
+/*h3 font size and color*/
+h3 {
+    font-size: 1.4rem;
+    color: green;
+
+}
+
+/*space under paragraphs*/
+p {
+    margin: 0 0 14px;
+}
+
+/*font size and italic*/
+.intro {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/*strong words bold and blue*/
+strong {
+    font-weight: bold;
+    color: blue;
+}
+
+/*no line when hovering over the link*/
+a:hover {
+    text-decoration: none;
+}
+
+/*click tab to navigate through links seeing a gold box*/
+a:focus-visible {
+    outline: 2px solid gold;
+}
+
+/*white on blue contrast 8.59:1*/
+/*blue strip across top white words align in center*/
+.site-header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/*shadow on words*/
+.site-header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+/*uppercase letters*/
+.tagline {
+    margin: 8px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+}
+
+/*max width extra space*/
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+/*white box, thin grey border blue on the left round corners.*/
+.card {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-left: 6px solid blue;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 32px 0;
+    max-width: 420px;
+    box-shadow: 0 4px 12px rgba(43, 43, 43, 0.12);
+}
+
+/*Blue text*/
+.card h3 {
+    margin: 0 0 12px;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+/*blue background, button text color white, round corners, no underline*/
+.button {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+/*dark blue when mouse hovers*/
+.button:hover {
+    background-color: darkblue;
+}
+
+/*bullets are square with space to the left*/
+ul {
+    list-style-type: square;
+    padding-left: 24px;
+
+}
+
+/*extra space*/
+li {
+    margin-bottom: 6px;
+}
+
+/*text in center*/
+.site-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #4f4f4f;
+    border-top: 1px solid lightgray;
+    padding: 20px;
+}
